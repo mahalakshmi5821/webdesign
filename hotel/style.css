@@ -1,0 +1,169 @@
+body,#h2{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    background-image:url('img/pexels-valeria-boltneva-842571.jpg');
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    font-family:sans-serif,'Times New Roman', Times, serif;
+    font-size:32px;
+    font-weight:bolder;
+   
+}
+
+.two,.three{
+    font-size:20px;
+}
+
+header{
+    padding:2em;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#logo{
+    flex:3;
+    text-decoration:none;
+    color:rgba(255, 217, 0, 0.87);
+}
+
+nav{
+    flex:2;
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+
+nav a{
+    flex:1;
+    text-decoration:none;
+    color:rgba(255, 217, 0, 0.87);
+}
+
+nav a:hover{
+    color:rgb(141, 238, 62);
+    text-decoration-line:underline;
+}
+
+button{
+   
+    width:15vw;
+    background-color:greenyellow;
+    border:2px solid green;
+    border-radius:10px;
+    color:red;
+    font-weight:bold;
+    padding:0.7em;
+    margin-top:3px;
+    
+}
+
+button:hover{
+    cursor:pointer;
+    background-color:red;
+    color:white;
+
+}
+
+.maintext{
+    color:white;
+    padding:3em;
+    display:flex;
+    height:50vh;
+    flex-direction:column;
+    justify-content:center;
+    font-size:25px;
+    font-weight:bold;  
+    
+}
+.maintext div{
+    margin-top:0.7em;
+}
+
+.one{
+    color:red;
+    font-weight:bold;
+
+}
+
+.two{
+    color:rgba(255, 217, 0, 0.87);
+}
+
+#main{
+   
+    background-color:rgb(82, 75, 75);
+    color:white;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+
+
+
+h2{
+    background-color:rgb(230, 20, 20);
+    margin:0;
+    text-align:center;
+    color:white;
+   
+    font-style:oblique;
+}
+
+table th{
+    color:rgb(97, 206, 97);
+    font-size:20px;
+}
+
+table{
+    width:100;
+    padding:1em;
+}
+
+#main tr{
+    display:flex;
+    justify-content: center;
+    margin-top:.7em;
+}
+
+#main td:nth-child(1){
+    flex:1;
+    justify-self:left;
+     
+}
+
+#main td:nth-child(2){
+    justify-self:right;
+}
+
+#location{
+   
+    background-color:rgb(78, 111, 121);
+      color:black;
+      margin:0;
+      display:flex;
+      justify-content: space-between;
+      flex-wrap:wrap;
+  }
+
+  h4{
+    color:rgb(97, 206, 97);
+  }
+
+#location div{
+    flex:1;
+    padding:2em;
+}
+
+footer{
+    background-color:coral;
+    color:white;
+    text-align:center;
+}
+
+.icon{
+    padding:5px;
+}
+
